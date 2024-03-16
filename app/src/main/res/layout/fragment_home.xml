@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/background_fragment_1"
+    tools:context=".fragments.HomeFragment">
+
+    <!-- Este layout LinearLayout actúa como contenedor principal para el fragmento de inicio (HomeFragment).
+         Define el diseño de los elementos dentro del fragmento, centrándolos verticalmente y aplicando un fondo de color  -->
+
+    <!-- El RecyclerView se utiliza para mostrar una lista de elementos en forma de tarjetas.
+         Se proporciona un identificador único '@+id/home_recycleView' para referenciarlo en el código Java/Kotlin. -->
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/home_recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>

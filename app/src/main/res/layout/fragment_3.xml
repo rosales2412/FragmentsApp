@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/background_fragment_3"
+    tools:context=".fragments.Fragment3">
+
+
+    <!-- Este archivo XML define el diseño del Fragment Fragment3.
+         Se utiliza un LinearLayout para organizar los elementos en el centro vertical de la pantalla.
+         El fondo del LinearLayout se establece en un color definido en resources.
+         Dentro del LinearLayout, hay un TextView que muestra un mensaje predeterminado. -->
+    <TextView
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="36dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Fragment 3"/>
+</LinearLayout>
